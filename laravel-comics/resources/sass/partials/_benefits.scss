@@ -1,0 +1,22 @@
+.benefits {
+    background-color: royalblue; 
+    background-size: cover;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+    align-items: center; 
+    color: white;
+
+    .container-benefits{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+            height: 40px;
+            margin-right: 20px;
+        }
+    }
+}

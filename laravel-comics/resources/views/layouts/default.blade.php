@@ -19,12 +19,14 @@
 </header>
     
 <main>
-
+    @include('partials.jumbotron')
     @yield('content')
 
+    @include('partials.benefits')
 </main>
 
 <footer>
+
 
 @include('partials.footer')
 

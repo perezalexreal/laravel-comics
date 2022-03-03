@@ -110,3 +110,30 @@
   width: 30px;
   height: 30px;
 }
+
+.benefits {
+  background-color: royalblue;
+  background-size: cover;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 100px;
+  align-items: center;
+  color: white;
+}
+.benefits .container-benefits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.benefits .container-benefits img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background: url("/img/jumbotron.jpg") no-repeat;
+  background-size: cover;
+  height: 400px;
+}
