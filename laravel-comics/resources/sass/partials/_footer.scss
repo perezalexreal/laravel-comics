@@ -1,0 +1,82 @@
+.footer {
+    background-color: #1c1c1c;
+    width: 100%;
+    padding: 0 100px;
+    background: url("/img/footer-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 400px;
+    overflow: hidden;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .main-footer {
+        padding: 40px 0px;
+        display: flex;
+        justify-content: left;
+        max-width: 550px;
+
+        .footer-nav {
+            margin: 0px 20px;
+            
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                margin: 5px 0px;
+                color: gray;
+            }
+        }
+    }
+    
+}
+
+.logo-footer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    bottom: 50px;
+}
+
+.footer-bottom {
+    background-color: #1c1c1c;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+
+    a .button-sign-up {
+        padding: 10px 40px;
+        border: 2px solid royalblue;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .container-logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        h1 {
+            color: royalblue;
+            font-size: 17px;
+            margin-right: 20px;
+        }
+
+        img {
+            margin: 0px 6px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
