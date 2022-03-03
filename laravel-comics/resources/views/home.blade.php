@@ -5,7 +5,14 @@
 
 {{--  Qui ci sara il contenuto dei fumetti --}}
 
-<p> Contenuto </p>
+@dump($comics)
+
+<ul>
+  @foreach($comics as $comic)
+    <li>{{ $comic["title"] }}</li>
+  @endforeach
+</ul>
+
 
 
 
